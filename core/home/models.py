@@ -10,5 +10,5 @@ class Receipe(models.Model):
     receipe_type = models.CharField(max_length=100, choices=(("veg", "veg"), ("non-veg", "non-veg")))
 
 class Ingredients(models.Model):
-    receipe = models.ForeignKey(Receipe, on_delete=models.CASCADE, related_name="receipe_ingredients")
+    receipe = models.ForeignKey(Receipe, on_delete=models.CASCADE, related_name="ingredients")
     ingredients_name = models.CharField(max_length=100)
