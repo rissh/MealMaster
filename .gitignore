@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+*.secret
+db.sqlite3
+media/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# pipenv
+Pipfile.lock
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# VSCode (if you're using it)
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Redis (if caching data locally)
+dump.rdb
