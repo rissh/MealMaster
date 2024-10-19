@@ -5,3 +5,5 @@ from .models import Receipe, Ingredients
 
 admin.site.register(Receipe)
 admin.site.register(Ingredients)
+
+
